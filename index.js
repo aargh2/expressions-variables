@@ -1,22 +1,22 @@
-import { Fuse } from '../../../lib.js';
+import { Fuse } from '../../../../lib.js';
 
-import { characters, eventSource, event_types, generateRaw, getRequestHeaders, main_api, online_status, saveSettingsDebounced, substituteParams, substituteParamsExtended, system_message_types, this_chid } from '../../../script.js';
-import { dragElement, isMobile } from '../../RossAscends-mods.js';
-import { getContext, getApiUrl, modules, extension_settings, ModuleWorkerWrapper, doExtrasFetch, renderExtensionTemplateAsync } from '../../extensions.js';
-import { loadMovingUIState, performFuzzySearch, power_user } from '../../power-user.js';
-import { onlyUnique, debounce, getCharaFilename, trimToEndSentence, trimToStartSentence, waitUntilCondition, findChar } from '../../utils.js';
-import { hideMutedSprites, selected_group } from '../../group-chats.js';
-import { isJsonSchemaSupported } from '../../textgen-settings.js';
-import { debounce_timeout } from '../../constants.js';
-import { SlashCommandParser } from '../../slash-commands/SlashCommandParser.js';
-import { SlashCommand } from '../../slash-commands/SlashCommand.js';
-import { ARGUMENT_TYPE, SlashCommandArgument, SlashCommandNamedArgument } from '../../slash-commands/SlashCommandArgument.js';
-import { SlashCommandEnumValue, enumTypes } from '../../slash-commands/SlashCommandEnumValue.js';
-import { commonEnumProviders } from '../../slash-commands/SlashCommandCommonEnumsProvider.js';
-import { slashCommandReturnHelper } from '../../slash-commands/SlashCommandReturnHelper.js';
-import { generateWebLlmChatPrompt, isWebLlmSupported } from '../shared.js';
-import { Popup, POPUP_RESULT } from '../../popup.js';
-import { t } from '../../i18n.js';
+import { characters, eventSource, event_types, generateRaw, getRequestHeaders, main_api, online_status, saveSettingsDebounced, substituteParams, substituteParamsExtended, system_message_types, this_chid } from '../../../../script.js';
+import { dragElement, isMobile } from '../../../../RossAscends-mods.js';
+import { getContext, getApiUrl, modules, extension_settings, ModuleWorkerWrapper, doExtrasFetch, renderExtensionTemplateAsync } from '../../../../extensions.js';
+import { loadMovingUIState, performFuzzySearch, power_user } from '../../../../power-user.js';
+import { onlyUnique, debounce, getCharaFilename, trimToEndSentence, trimToStartSentence, waitUntilCondition, findChar } from '../../../../utils.js';
+import { hideMutedSprites, selected_group } from '../../../../group-chats.js';
+import { isJsonSchemaSupported } from '../../../../textgen-settings.js';
+import { debounce_timeout } from '../../../../constants.js';
+import { SlashCommandParser } from '../../../../slash-commands/SlashCommandParser.js';
+import { SlashCommand } from '../../../../slash-commands/SlashCommand.js';
+import { ARGUMENT_TYPE, SlashCommandArgument, SlashCommandNamedArgument } from '../../../../slash-commands/SlashCommandArgument.js';
+import { SlashCommandEnumValue, enumTypes } from '../../../../slash-commands/SlashCommandEnumValue.js';
+import { commonEnumProviders } from '../../../../slash-commands/SlashCommandCommonEnumsProvider.js';
+import { slashCommandReturnHelper } from '../../../../slash-commands/SlashCommandReturnHelper.js';
+import { generateWebLlmChatPrompt, isWebLlmSupported } from '../../../../shared.js';
+import { Popup, POPUP_RESULT } from '../../../../popup.js';
+import { t } from '../../../../i18n.js';
 export { MODULE_NAME };
 
 /**
