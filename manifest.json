@@ -1,0 +1,13 @@
+{
+    "display_name": "Character Expressions variables",
+    "requires": [],
+    "optional": [
+        "classify"
+    ],
+    "js": "index.js",
+    "css": "style.css",
+    "author": "",
+    "version": "1.0.0",
+    "homePage": "http://localhost",
+    "auto_update": false
+}
