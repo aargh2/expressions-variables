@@ -6,8 +6,8 @@
     ],
     "js": "index.js",
     "css": "style.css",
-    "author": "",
+    "author": "aargh2",
     "version": "1.0.0",
-    "homePage": "http://localhost",
-    "auto_update": false
+    "homePage": "https://github.com/aargh2/expressions-variables",
+    "auto_update": true
 }
